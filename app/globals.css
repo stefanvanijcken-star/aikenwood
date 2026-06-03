@@ -253,6 +253,7 @@ input:focus, textarea:focus {
 
 .side-image-wrap {
   flex: 1;
+  width: 100%;
   position: relative;
   height: 440px;
   border-radius: 24px;
@@ -374,11 +375,15 @@ input:focus, textarea:focus {
   .hero-image-wrap {
     height: clamp(200px, 56vw, 896px);
   }
-  .side-image-wrap {
-    height: clamp(180px, 56vw, 440px);
-  }
+
   .side-images-row {
     flex-direction: column;
+  }
+
+  .side-image-wrap {
+    width: 100%;
+    flex: none;
+    height: clamp(180px, 56vw, 440px);
   }
 
   .case-card-link {
