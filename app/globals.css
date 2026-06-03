@@ -397,4 +397,8 @@ input:focus, textarea:focus {
     flex-direction: column;
     gap: 8px;
   }
+  .contact-label-align {
+  min-height: 3em;
+  }
 }
+

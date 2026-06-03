@@ -142,11 +142,11 @@ export default function Contact() {
               {/* Company + job */}
               <div style={{ display: 'flex', gap: '16px' }}>
                 <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: '12px' }}>
-                  <span style={labelStyle}>Company name (optional)</span>
+                  <span className="contact-label-align" style={labelStyle}>Company name (optional)</span>
                   <input name="company" value={form.company} onChange={handleChange} style={inputStyle} />
                 </div>
                 <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: '12px' }}>
-                  <span style={labelStyle}>Job title (optional)</span>
+                  <span className="contact-label-align" style={labelStyle}>Job title (optional)</span>
                   <input name="jobTitle" value={form.jobTitle} onChange={handleChange} style={inputStyle} />
                 </div>
               </div>
