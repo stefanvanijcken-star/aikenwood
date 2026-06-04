@@ -118,7 +118,7 @@ export default function FeaturedWork() {
             transform: 'translate(-50%, -50%)',
             pointerEvents: 'none',
             zIndex: 10,
-            color: '#ffffff',
+            color: '#FFFFFF',
             fontSize: '64px',
             fontWeight: '500',
             lineHeight: '100%',
