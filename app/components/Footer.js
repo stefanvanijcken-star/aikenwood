@@ -31,17 +31,17 @@ export default function Footer() {
 
           <div style={{ display: 'flex', flexDirection: 'column' }}>
             <span style={{ fontSize: '24px', lineHeight: '120%', fontWeight: '500' }}>Social</span>
-            <a href="https://www.linkedin.com/company/aikenwood/" className="text-link" style={{ fontSize: '18px', lineHeight: '140%', color: '#919191', marginTop: '16px', display: 'inline-block', width: 'fit-content' }}>LinkedIn</a>
-            <a href="https://www.instagram.com/aikenwood/" className="text-link" style={{ fontSize: '18px', lineHeight: '140%', color: '#919191', marginTop: '12px', display: 'inline-block', width: 'fit-content' }}>Instagram</a>
-            <a href="#" className="text-link" style={{ fontSize: '18px', lineHeight: '140%', color: '#919191', marginTop: '12px', display: 'inline-block', width: 'fit-content' }}>Behance</a>
-            <a href="#" className="text-link" style={{ fontSize: '18px', lineHeight: '140%', color: '#919191', marginTop: '12px', display: 'inline-block', width: 'fit-content' }}>Dribbble</a>
+            <a href="https://www.linkedin.com/company/aikenwood/" target="_blank" className="text-link" style={{ fontSize: '18px', lineHeight: '140%', color: '#919191', marginTop: '16px', display: 'inline-block', width: 'fit-content' }}>LinkedIn</a>
+            <a href="https://www.instagram.com/aikenwood/" target="_blank" className="text-link" style={{ fontSize: '18px', lineHeight: '140%', color: '#919191', marginTop: '12px', display: 'inline-block', width: 'fit-content' }}>Instagram</a>
+            <a href="#" className="text-link" target="_blank" style={{ fontSize: '18px', lineHeight: '140%', color: '#919191', marginTop: '12px', display: 'inline-block', width: 'fit-content' }}>Behance</a>
+            <a href="#" className="text-link" target="_blank" style={{ fontSize: '18px', lineHeight: '140%', color: '#919191', marginTop: '12px', display: 'inline-block', width: 'fit-content' }}>Dribbble</a>
           </div>
 
           <div style={{ display: 'flex', flexDirection: 'column' }}>
             <span style={{ fontSize: '24px', lineHeight: '120%', fontWeight: '500' }}>Legal</span>
-            <a href="#" className="text-link" style={{ fontSize: '18px', lineHeight: '140%', color: '#919191', marginTop: '16px', display: 'inline-block', width: 'fit-content' }}>Privacy Policy</a>
-            <a href="#" className="text-link" style={{ fontSize: '18px', lineHeight: '140%', color: '#919191', marginTop: '12px', display: 'inline-block', width: 'fit-content', maxWidth: '100px' }}>Terms & Conditions</a>
-            <a href="#" className="text-link" style={{ fontSize: '18px', lineHeight: '140%', color: '#919191', marginTop: '12px', display: 'inline-block', width: 'fit-content' }}>Cookies</a>
+            <a href="/public/privacy_statement.pdf" target="_blank" className="text-link" style={{ fontSize: '18px', lineHeight: '140%', color: '#919191', marginTop: '16px', display: 'inline-block', width: 'fit-content' }}>Privacy Policy</a>
+            <a href="#" className="text-link" target="_blank" style={{ fontSize: '18px', lineHeight: '140%', color: '#919191', marginTop: '12px', display: 'inline-block', width: 'fit-content', maxWidth: '100px' }}>Terms & Conditions</a>
+            <a href="#" className="text-link" target="_blank" style={{ fontSize: '18px', lineHeight: '140%', color: '#919191', marginTop: '12px', display: 'inline-block', width: 'fit-content' }}>Cookies</a>
           </div>
 
         </div>
