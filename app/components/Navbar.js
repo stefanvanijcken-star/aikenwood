@@ -12,7 +12,6 @@ export default function Navbar({ dark = false }) {
   const links = [
     { label: 'Work', href: '/cases' },
     { label: 'Insights', href: '/insights' },
-    { label: 'About', href: '/about' },
     { label: 'Contact', href: '/contact' },
   ]
 

@@ -26,14 +26,13 @@ export default function Footer() {
             <span style={{ fontSize: '24px', lineHeight: '120%', fontWeight: '500' }}>Explore</span>
             <Link href="/cases" className="text-link" style={{ fontSize: '18px', lineHeight: '140%', color: '#919191', marginTop: '16px', display: 'inline-block', width: 'fit-content' }}>Work</Link>
             <Link href="/insights" className="text-link" style={{ fontSize: '18px', lineHeight: '140%', color: '#919191', marginTop: '12px', display: 'inline-block', width: 'fit-content' }}>Insights</Link>
-            <Link href="/about" className="text-link" style={{ fontSize: '18px', lineHeight: '140%', color: '#919191', marginTop: '12px', display: 'inline-block', width: 'fit-content' }}>About</Link>
             <Link href="/contact" className="text-link" style={{ fontSize: '18px', lineHeight: '140%', color: '#919191', marginTop: '12px', display: 'inline-block', width: 'fit-content' }}>Contact</Link>
           </div>
 
           <div style={{ display: 'flex', flexDirection: 'column' }}>
             <span style={{ fontSize: '24px', lineHeight: '120%', fontWeight: '500' }}>Social</span>
-            <a href="#" className="text-link" style={{ fontSize: '18px', lineHeight: '140%', color: '#919191', marginTop: '16px', display: 'inline-block', width: 'fit-content' }}>LinkedIn</a>
-            <a href="#" className="text-link" style={{ fontSize: '18px', lineHeight: '140%', color: '#919191', marginTop: '12px', display: 'inline-block', width: 'fit-content' }}>Instagram</a>
+            <a href="https://www.linkedin.com/company/aikenwood/" className="text-link" style={{ fontSize: '18px', lineHeight: '140%', color: '#919191', marginTop: '16px', display: 'inline-block', width: 'fit-content' }}>LinkedIn</a>
+            <a href="https://www.instagram.com/aikenwood/" className="text-link" style={{ fontSize: '18px', lineHeight: '140%', color: '#919191', marginTop: '12px', display: 'inline-block', width: 'fit-content' }}>Instagram</a>
             <a href="#" className="text-link" style={{ fontSize: '18px', lineHeight: '140%', color: '#919191', marginTop: '12px', display: 'inline-block', width: 'fit-content' }}>Behance</a>
             <a href="#" className="text-link" style={{ fontSize: '18px', lineHeight: '140%', color: '#919191', marginTop: '12px', display: 'inline-block', width: 'fit-content' }}>Dribbble</a>
           </div>
