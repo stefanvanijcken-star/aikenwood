@@ -39,7 +39,7 @@ export default function Footer() {
 
           <div style={{ display: 'flex', flexDirection: 'column' }}>
             <span style={{ fontSize: '24px', lineHeight: '120%', fontWeight: '500' }}>Legal</span>
-            <a href="/public/privacy_statement.pdf" target="_blank" className="text-link" style={{ fontSize: '18px', lineHeight: '140%', color: '#919191', marginTop: '16px', display: 'inline-block', width: 'fit-content' }}>Privacy Policy</a>
+            <a href="/privacy_statement.pdf" target="_blank" className="text-link" style={{ fontSize: '18px', lineHeight: '140%', color: '#919191', marginTop: '16px', display: 'inline-block', width: 'fit-content' }}>Privacy Policy</a>
             <a href="#" className="text-link" target="_blank" style={{ fontSize: '18px', lineHeight: '140%', color: '#919191', marginTop: '12px', display: 'inline-block', width: 'fit-content', maxWidth: '100px' }}>Terms & Conditions</a>
             <a href="#" className="text-link" target="_blank" style={{ fontSize: '18px', lineHeight: '140%', color: '#919191', marginTop: '12px', display: 'inline-block', width: 'fit-content' }}>Cookies</a>
           </div>
