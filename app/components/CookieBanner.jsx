@@ -32,10 +32,9 @@ export default function CookieBanner() {
           <h4>Cookie consent</h4>
 
           <p>
-            We use analytics cookies to understand how visitors use our website and
-            improve the user experience. This includes anonymous information such
-            as page visits, clicks, scrolling behavior, and session recordings. We
-            do not use these cookies for advertising. Learn more in our{" "}
+            We use analytics cookies to understand how visitors interact
+            with our website. This helps us improve performance, content,
+            and user experience. No advertising cookies are used. Learn more in our{" "}
             <a href="/privacy-policy.pdf" target="_blank" rel="noopener noreferrer" className="text-link">
               Privacy Policy.
             </a>
