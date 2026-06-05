@@ -1,3 +1,4 @@
+import Script from 'next/script'
 import { Analytics } from "@vercel/analytics/next"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import ClarityInit from './Clarity';
@@ -46,6 +47,13 @@ export default function RootLayout({ children }) {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
         />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-PTNWYHRWQG" strategy="afterInteractive" />
+        <Script id="gtag-init" strategy="afterInteractive">{`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-PTNWYHRWQG');
+        `}</Script>
         <ClarityInit />
         {children}
         <CookieBanner />

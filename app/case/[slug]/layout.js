@@ -18,5 +18,5 @@ export async function generateMetadata({ params }) {
 }
 
 export default function CaseLayout({ children }) {
-  return children
+  return <>{children}</>
 }
