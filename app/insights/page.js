@@ -3,6 +3,18 @@ import Image from 'next/image'
 import Navbar from '../components/Navbar'
 import { insights } from '../data/insights'
 
+export const metadata = {
+  title: 'Insights',
+  description: 'Brand strategy insights from Aikenwood. Articles on positioning, visual identity and strategic branding to help ambitious companies grow.',
+  openGraph: {
+    title: 'Insights | Aikenwood',
+    description: 'Brand strategy insights from Aikenwood. Articles on positioning, visual identity and strategic branding.',
+    url: 'https://aikenwood.com/insights',
+    type: 'website',
+  },
+  alternates: { canonical: 'https://aikenwood.com/insights' },
+}
+
 function InsightCard({ insight }) {
   return (
     <Link
@@ -73,7 +85,7 @@ export default function Insights() {
         flexDirection: 'column',
         gap: '32px',
       }}>
-        <h3 style={{ margin: 0 }}>Insights</h3>
+        <h1 className="text-h3" style={{ margin: 0 }}>Insights</h1>
         <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
           {rows.map((row, i) => (
             <div key={i} className="insight-cards-row">

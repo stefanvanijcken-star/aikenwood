@@ -68,7 +68,7 @@ export default function Contact() {
         paddingBottom: '56px',
       }}>
         <div className="page-header">
-          <h3 style={{ margin: 0 }}>Contact</h3>
+          <h1 className="text-h3" style={{ margin: 0 }}>Contact</h1>
           <p style={{ margin: 0, maxWidth: '620px' }}>
             {"Whether you're building a new brand, repositioning an existing one or preparing for your next stage of growth, we'd love to hear from you."}
           </p>
@@ -202,12 +202,10 @@ export default function Contact() {
               {/* Submit */}
               <button
                 onClick={handleSubmit}
-                className="btn-pill"
+                className="btn-pill btn-pill-dark"
                 disabled={!isValid || loading}
                 style={{
                   alignSelf: 'flex-start',
-                  backgroundColor: '#000000',
-                  color: '#ffffff',
                   fontSize: '18px',
                   lineHeight: '140%',
                   padding: '8px 24px',

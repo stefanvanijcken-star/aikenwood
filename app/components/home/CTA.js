@@ -24,10 +24,8 @@ export default function CTA() {
           flexShrink: 0,
         }}>
           <a href="mailto:hello@aikenwood.com"
-          className="btn-pill"
+          className="btn-pill btn-pill-light"
           style={{
-            backgroundColor: '#ffffff',
-            color: '#000000',
             fontSize: '18px',
             lineHeight: '140%',
             fontWeight: '400',

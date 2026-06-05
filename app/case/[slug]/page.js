@@ -29,7 +29,7 @@ export default function CasePage({ params }) {
 
         {/* Links: titel + meta */}
         <div className="case-half" style={{ gap: '16px' }}>
-          <h2 style={{ color: '#ffffff', margin: 0 }}>{c.client}</h2>
+          <h1 style={{ color: '#ffffff', margin: 0 }}>{c.client}</h1>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
             <h4 style={{ color: '#ffffff', margin: 0 }}>Industry</h4>
             <p style={{ color: '#919191', margin: 0 }}>{c.industry}</p>
@@ -100,7 +100,7 @@ export default function CasePage({ params }) {
       {c.images[0] && (
         <div className="px-section" style={{ paddingTop: '12px', paddingBottom: '12px' }}>
           <div className="hero-image-wrap">
-            <Image src={c.images[0]} alt="" fill style={{ objectFit: 'cover' }} />
+            <Image src={c.images[0]} alt={`${c.client} brand work`} fill style={{ objectFit: 'cover' }} />
           </div>
         </div>
       )}
@@ -110,12 +110,12 @@ export default function CasePage({ params }) {
         <div className="px-section side-images-row" style={{ paddingTop: '12px', paddingBottom: '12px' }}>
           {c.images[1] && (
             <div className="side-image-wrap">
-              <Image src={c.images[1]} alt="" fill style={{ objectFit: 'cover' }} />
+              <Image src={c.images[1]} alt={`${c.client} brand identity`} fill style={{ objectFit: 'cover' }} />
             </div>
           )}
           {c.images[2] && (
             <div className="side-image-wrap">
-              <Image src={c.images[2]} alt="" fill style={{ objectFit: 'cover' }} />
+              <Image src={c.images[2]} alt={`${c.client} visual identity`} fill style={{ objectFit: 'cover' }} />
             </div>
           )}
         </div>
@@ -126,12 +126,12 @@ export default function CasePage({ params }) {
         <div className="px-section side-images-row" style={{ paddingTop: '12px', paddingBottom: '12px' }}>
           {c.images[3] && (
             <div className="side-image-wrap">
-              <Image src={c.images[3]} alt="" fill style={{ objectFit: 'cover' }} />
+              <Image src={c.images[3]} alt={`${c.client} brand touchpoints`} fill style={{ objectFit: 'cover' }} />
             </div>
           )}
           {c.images[4] && (
             <div className="side-image-wrap">
-              <Image src={c.images[4]} alt="" fill style={{ objectFit: 'cover' }} />
+              <Image src={c.images[4]} alt={`${c.client} brand system`} fill style={{ objectFit: 'cover' }} />
             </div>
           )}
         </div>

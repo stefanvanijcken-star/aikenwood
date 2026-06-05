@@ -82,13 +82,35 @@ input:focus, textarea:focus {
   transform-origin: right;
 }
 
+/* Semantic h1 styled at h3 visual size */
+.text-h3 {
+  font-size: 40px !important;
+  line-height: 100%;
+  letter-spacing: -0.01em;
+  font-weight: 500;
+}
+
+@media (max-width: 1024px) { .text-h3 { font-size: 32px !important; } }
+@media (max-width: 768px)  { .text-h3 { font-size: 28px !important; } }
+
 /* Buttons */
 .btn-pill {
-  transition: opacity 0.25s ease;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.btn-pill-dark {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.btn-pill-light {
+  background-color: #ffffff;
+  color: #000000;
 }
 
 .btn-pill:hover {
-  opacity: 0.7;
+  background-color: #069494;
+  color: #ffffff;
 }
 
 .btn-dark {

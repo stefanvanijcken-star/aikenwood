@@ -21,10 +21,8 @@ export default function Hero() {
         </p>
         <Link
           href="/contact"
-          className="btn-pill"
+          className="btn-pill btn-pill-dark"
           style={{
-            backgroundColor: '#000000',
-            color: '#ffffff',
             fontSize: '18px',
             lineHeight: '140%',
             paddingLeft: '24px',

@@ -2,6 +2,18 @@ import Navbar from '../components/Navbar'
 import CaseCard from '../components/CaseCard'
 import { cases } from '../data/cases'
 
+export const metadata = {
+  title: 'Our Work',
+  description: 'Explore how Aikenwood helps ambitious companies build brands that stand out, earn trust and grow. Case studies across venture capital, fashion, M&A consulting, hospitality and private equity.',
+  openGraph: {
+    title: 'Our Work | Aikenwood',
+    description: 'Explore how Aikenwood helps ambitious companies build brands that stand out, earn trust and grow.',
+    url: 'https://aikenwood.com/cases',
+    type: 'website',
+  },
+  alternates: { canonical: 'https://aikenwood.com/cases' },
+}
+
 export default function Cases() {
   const rows = []
   for (let i = 0; i < cases.length; i += 2) {
@@ -19,7 +31,7 @@ export default function Cases() {
         gap: '32px',
       }}>
         <div className="page-header">
-          <h3 style={{ margin: 0 }}>Our Work</h3>
+          <h1 className="text-h3" style={{ margin: 0 }}>Our Work</h1>
           <p style={{ margin: 0, maxWidth: '420px', textAlign: 'right' }}>
             Explore how we help ambitious companies build brands that stand out, earn trust and grow.
           </p>

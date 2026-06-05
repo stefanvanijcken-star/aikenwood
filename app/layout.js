@@ -6,14 +6,46 @@ import './globals.css'
 import Footer from './components/Footer'
 
 export const metadata = {
-  title: 'Aikenwood',
-  description: 'Building brands that lead markets.',
+  metadataBase: new URL('https://aikenwood.com'),
+  title: {
+    template: '%s | Aikenwood',
+    default: 'Aikenwood | Brand Strategy Consultancy',
+  },
+  description: 'Aikenwood is a brand strategy consultancy that helps ambitious companies build brands that stand out, earn trust and drive long-term growth.',
+  openGraph: {
+    type: 'website',
+    siteName: 'Aikenwood',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: 'summary_large_image',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 },
+  },
+}
+
+const organizationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ProfessionalService',
+  name: 'Aikenwood',
+  description: 'Brand strategy consultancy helping ambitious companies build brands that lead markets.',
+  url: 'https://aikenwood.com',
+  email: 'hello@aikenwood.com',
+  telephone: '+31653633797',
+  serviceType: ['Brand Strategy', 'Visual Identity', 'Brand Management', 'Research', 'Brand Touchpoints'],
 }
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="nl">
+    <html lang="en">
       <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
         <ClarityInit />
         {children}
         <CookieBanner />
