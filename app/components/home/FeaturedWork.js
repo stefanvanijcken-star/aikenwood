@@ -65,8 +65,6 @@ export default function FeaturedWork() {
   return (
     <section className="px-section" style={{ paddingTop: '40px', paddingBottom: '56px' }}>
 
-      <h3 style={{ marginBottom: '32px' }}>Featured Work</h3>
-
       <div
         ref={containerRef}
         onMouseMove={handleMouseMove}

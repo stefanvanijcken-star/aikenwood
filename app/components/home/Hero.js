@@ -5,7 +5,7 @@ export default function Hero() {
     <section className="px-section" style={{ paddingTop: '56px', paddingBottom: '56px' }}>
 
       <h1 style={{ maxWidth: '800px' }}>
-        Building brands that lead markets.
+        Build a brand that people understand.
       </h1>
 
       <div style={{
@@ -17,7 +17,7 @@ export default function Hero() {
 
       <div className="hero-bottom">
         <p className="hero-desc">
-          Aikenwood is a brand strategy consultancy that helps companies grow through strategic branding.
+          We help ambitious companies discover what makes them valuable and turn it into brands people trust.
         </p>
         <Link
           href="/contact"
@@ -34,7 +34,7 @@ export default function Hero() {
             flexShrink: 0,
           }}
         >
-          Start a project
+          Get in touch
         </Link>
       </div>
 

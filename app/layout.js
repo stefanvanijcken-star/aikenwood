@@ -42,7 +42,7 @@ const organizationSchema = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body className="selection:bg-[#069494] selection:text-white">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
