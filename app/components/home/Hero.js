@@ -5,7 +5,7 @@ export default function Hero() {
     <section className="px-section" style={{ paddingTop: '56px', paddingBottom: '56px' }}>
 
       <h1 style={{ maxWidth: '800px' }}>
-        Build a brand that people understand.
+        Build a brand people understand.
       </h1>
 
       <div style={{
