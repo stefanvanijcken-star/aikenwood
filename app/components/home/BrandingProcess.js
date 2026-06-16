@@ -47,7 +47,7 @@ export default function BrandingProcess() {
             className="process-step"
             style={{
               padding: '33px 12px 32px',
-              borderTop: '1px solid rgba(255,255,255,0.33)',
+              borderTop: '1px solid #2e2e2e',
             }}
           >
             <h4 style={{ color: '#ffffff', margin: 0, flex: 1 }}>{step.title}</h4>
