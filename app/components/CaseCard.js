@@ -75,8 +75,8 @@ export default function CaseCard({ c }) {
             <span key={tag} style={{
               fontSize: '14px',
               lineHeight: '140%',
-              color: '#959595',
-              border: '1px solid #959595',
+              color: '#A8A8A8',
+              border: '1px solid #A8A8A8',
               borderRadius: index === 0 ? '0px' : '44px',
               padding: '4px 16px',
             }}>

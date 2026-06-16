@@ -10,7 +10,7 @@ function InsightCard({ insight }) {
       className="card-hover"
       style={{
         flex: 1,
-        backgroundColor: '#F3F3F3',
+        backgroundColor: '#FAFAFA',
         borderRadius: '24px',
         display: 'flex',
         flexDirection: 'column',
@@ -39,8 +39,8 @@ function InsightCard({ insight }) {
           <span style={{
             fontSize: '18px',
             lineHeight: '140%',
-            color: '#959595',
-            border: '1px solid #959595',
+            color: '#A8A8A8',
+            border: '1px solid #A8A8A8',
             borderRadius: '44px',
             padding: '4px 16px',
           }}>
