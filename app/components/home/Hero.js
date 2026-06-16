@@ -10,7 +10,7 @@ export default function Hero() {
 
       <div style={{
         height: '2px',
-        backgroundColor: 'rgba(0,0,0,0.33)',
+        backgroundColor: '#F3F3F3',
         marginTop: '40px',
         marginBottom: '40px'
       }} />
